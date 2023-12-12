@@ -1,0 +1,102 @@
+/* Archivo: style.scss */
+
+// Variables
+$color-primario: #db3434;
+$color-secundario: #2ecc71;
+$body-background-color: #999b9b69;
+$navbar-background-color: #34495e;
+$navbar-text-color: #ffffff;
+
+// Estilos generales
+body {
+  background-color: $body-background-color;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  nav {
+    background-color: $navbar-background-color;
+    
+    a {
+      color: $navbar-text-color;
+    }
+  }
+}
+
+.inicio {
+  text-align: center;
+  margin-top: 20px;
+
+  h2 {
+    color: $color-primario;
+  }
+}
+
+.row {
+  margin-top: 30px;
+
+  .col-lg-4 {
+    .modelos {
+      ul {
+        list-style: none;
+
+        li {
+          margin-bottom: 20px;
+
+          img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+
+          h3 {
+            color: $primary-color;
+            margin-top: 10px;
+          }
+
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mapa_info {
+  text-align: center;
+  margin-top: 30px;
+
+  h3 {
+    color: $primary-color;
+  }
+}
+
+.mapa {
+  text-align: center;
+
+  .mapa_img {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+}
+
+.Datos_contacto {
+  text-align: center;
+  margin-top: 20px;
+
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  background-color: $navbar-background-color;
+  color: $navbar-text-color;
+  padding: 10px 0;
+}
+

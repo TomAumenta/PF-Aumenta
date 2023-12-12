@@ -1,0 +1,76 @@
+/* Archivo: style.scss */
+body {
+  background-color: rgba(153, 155, 155, 0.4117647059);
+  font-family: "Arial", sans-serif;
+}
+
+header nav {
+  background-color: #34495e;
+}
+header nav a {
+  color: #ffffff;
+}
+
+.inicio {
+  text-align: center;
+  margin-top: 20px;
+}
+.inicio h2 {
+  color: #db3434;
+}
+
+.row {
+  margin-top: 30px;
+}
+.row .col-lg-4 .modelos ul {
+  list-style: none;
+}
+.row .col-lg-4 .modelos ul li {
+  margin-bottom: 20px;
+}
+.row .col-lg-4 .modelos ul li img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.row .col-lg-4 .modelos ul li h3 {
+  color: #db3434;
+  margin-top: 10px;
+}
+.row .col-lg-4 .modelos ul li a {
+  text-decoration: none;
+}
+
+.mapa_info {
+  text-align: center;
+  margin-top: 30px;
+}
+.mapa_info h3 {
+  color: #db3434;
+}
+
+.mapa {
+  text-align: center;
+}
+.mapa .mapa_img {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+.Datos_contacto {
+  text-align: center;
+  margin-top: 20px;
+}
+.Datos_contacto p {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #34495e;
+  color: #ffffff;
+  padding: 10px 0;
+}/*# sourceMappingURL=style.css.map */
