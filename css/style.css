@@ -252,3 +252,51 @@ h3 {
     font-weight: bold;
 }
 
+
+
+/* Error 404 */
+
+.container-error body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container-error {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto; 
+    display: flex;
+    flex-direction: column; 
+    margin-top: 15%;
+}
+
+.container-error h1 {
+    color: #ff4444;
+    font-size: 100px;
+    margin: 0;
+}
+
+.container-error p {
+    color: #666;
+    font-size: 18px;
+}
+
+.container-error a {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container-error a:hover {
+    text-decoration: underline;
+}
